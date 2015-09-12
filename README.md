@@ -10,7 +10,7 @@ So here you go, a one-stop-shop for everything regarding computer diagnosis and 
 
 < 748MB and counting. Won't stop until I reach HBCD's standard if < 600MB despite introduction of USB3.0, BluRay, etc...
 
-# BLDZRv3
+# BLDZRvX
 BootLoader Disc of Zenith Repair
 <img src="https://raw.githubusercontent.com/BiTinerary/BLDZRvZ/master/GitHub%20Images/BLDZR.png" />
 
