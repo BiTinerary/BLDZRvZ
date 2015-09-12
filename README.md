@@ -8,6 +8,8 @@ To all others I give free reign. This software was inspired by <a href="http://w
 
 So here you go, a one-stop-shop for everything regarding computer diagnosis and repair with my personal utmost regard to conveniece, simplicity, minimalist design. Just know that it's not perfect and I'm far from done. Like many creators, innovators and fellow CodeMonkeys, I doubt I'll ever be. I bid you safe travels and good luck in this amazon of Git's.
 
+< 748MB and counting. Won't stop until I reach HBCD's standard if < 600MB despite introduction of USB3.0, BluRay, etc...
+
 # BLDZRv3
 BootLoader Disc of Zenith Repair
 <img src="https://raw.githubusercontent.com/BiTinerary/BLDZRvZ/master/GitHub%20Images/BLDZR.png" />
