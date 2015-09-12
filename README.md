@@ -1,4 +1,4 @@
-Download FULL, raw, version here: 
+Download FULL, raw, version here: https://drive.google.com/open?id=0BxzCGFRyWeZtUGdDT1N0bk1ibUk
 
 As it turns out GitHub doesn't like uploading `.iso`'s I keep getting commit errors and incomplete uploads. The direct download is the core file system. Without excess .jpg's, readme.md files, etc... only the raw files. You will need to format jump drive, cd, bootable medium using Xboot program or RMPREPUSB. Otherwise, all file structure and necessary boot info is left intact. Free to hack, break, crack, redistribute and alter.
 
