@@ -1,15 +1,15 @@
 # BLDZRv3
 BootLoader Disc of Zenith Repair
-<img src="https://raw.githubusercontent.com/BiTinerary/BLDZRv3/master/BLDZR.png" />
+<img src="https://raw.githubusercontent.com/BiTinerary/BLDZRvZ/master/GitHub%20Images/BLDZR.png" />
 
 ###Quickstart Software Utility
-<img src="https://github.com/BiTinerary/BLDZRv3/blob/master/BldzrProg.png" />
+<img src="https://raw.githubusercontent.com/BiTinerary/BLDZRvZ/master/GitHub%20Images/BldzrProg.png" />
 
 ###Hardware testing
-<img src="https://github.com/BiTinerary/BLDZRv3/blob/master/mhddbldzr.png" />
+<img src="https://raw.githubusercontent.com/BiTinerary/BLDZRvZ/master/GitHub%20Images/mhddbldzr.png" />
 
 ###1:1 Ratio drive Cloning
-<img src="https://github.com/BiTinerary/BLDZRv3/blob/master/pingbldzr.png" />
+<img src="https://raw.githubusercontent.com/BiTinerary/BLDZRvZ/master/GitHub%20Images/pingbldzr.png" />
 
 ###Root Directory of USB
-<img src="https://github.com/BiTinerary/BLDZRv3/blob/master/root%20directory.PNG" />
+<img src="https://raw.githubusercontent.com/BiTinerary/BLDZRvZ/master/GitHub%20Images/root%20directory.PNG" />
