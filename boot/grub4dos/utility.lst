@@ -1,0 +1,43 @@
+default 1
+timeout 15
+gfxmenu /boot/message
+color yellow/black white/black white/black white/black
+write (md)0x220+1 !BAT\necho -n -P:0000 $[0107]                                BLDZR v3.1.3 DVD                              \0 && initscript (md)0x220+1
+splashimage (hd0,0)/boot/syslinux/
+
+### MENU END
+title 	Go Back\n                        Boot Loader Disc of Zenith Repair
+configfile /menu.lst
+### MENU END
+
+### MENU START
+#title 		    SeaTools\n                        Boot Loader Disc of Zenith Repair          
+#ls /images/ctools.iso || find --set-root /images/ctools.iso
+#map --heads=0 --sectors-per-track=0 /images/ctools.iso (0xff) || map --heads=0 --sectors-per-track=0 --mem /images/ctools.iso (0xff)
+#map --hook
+#chainloader (0xff)
+### MENU END
+
+### MENU START
+title 		    Hardware Detection Tool\n                        Boot Loader Disc of Zenith Repair          
+ls /images/hdt.iso || find --set-root /images/hdt.iso
+map --heads=0 --sectors-per-track=0 /images/hdt.iso (0xff) || map --heads=0 --sectors-per-track=0 --mem /images/hdt.iso (0xff)
+map --hook
+chainloader (0xff)
+### MENU END
+
+### MENU START
+title	Boot HDD\n                        Boot Loader Disc of Zenith Repair
+find --set-root --ignore-floppies --ignore-cd /bootmgr || find --set-root --ignore-floppies --ignore-cd /ntldr || rootnoverify (hd0) && chainloader +1 && boot
+map () (hd0) && map (hd0) () && map --rehook
+find --set-root --devices=h /bootmgr || find --set-root --ignore-floppies --ignore-cd /ntldr
+chainloader /bootmgr || chainloader /ntldr
+### MENU END
+
+### MENU START
+#title 		    EZGIG\n                        Boot Loader Disc of Zenith Repair          
+#ls /images/ezgig.iso || find --set-root /images/ezgig.iso
+#map --heads=0 --sectors-per-track=0 /images/ezgig.iso (0xff) || map --heads=0 --sectors-per-track=0 --mem /images/ezgig.iso (0xff)
+#map --hook
+#chainloader (0xff)
+### MENU END

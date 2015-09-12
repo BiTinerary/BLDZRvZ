@@ -1,0 +1,86 @@
+default 1
+timeout 15
+color yellow/black white/black white/black white/black
+write (md)0x220+1 !BAT\necho -n -P:0000 $[0107]                                BLDZR v3.1.3 DVD                              \0 && initscript (md)0x220+1
+splashimage (hd0,0)/boot/syslinux/
+
+### MENU START
+title	v3.1.3\n                        Boot Loader Disc of Zenith Repair          
+	configfile /menu.lst
+### MENU END
+
+### MENU START
+###title 		    Win8 Live\n                        Boot Loader Disc of Zenith Repair          
+###ls /images/winpe.iso || find --set-root /images/winpe.iso
+###map --heads=0 --sectors-per-track=0 /images/winpe.iso (0xff) || map --heads=0 --sectors-per-track=0 --mem /images/winpe.iso (0xff)
+###map --hook
+###chainloader (0xff)
+### MENU END
+
+### MENU START
+title 		    Ubuntu Live\n                        Boot Loader Disc of Zenith Repair          
+find --set-root /images/ubuntu.iso
+map /images/ubuntu.iso (0xff) || map --mem /images/ubuntu.iso (0xff)
+map --hook
+root (0xff)
+kernel /casper/vmlinuz  file=/cdrom/preseed/ubuntu.seed noprompt boot=casper iso-scan/filename=/images/ubuntu.iso quiet splash --
+initrd /casper/initrd.lz
+### MENU END
+
+### MENU START
+title 		    MemTest\n                        Boot Loader Disc of Zenith Repair          
+ls /images/memtest.iso || find --set-root /images/memtest.iso
+map --heads=0 --sectors-per-track=0 /images/memtest.iso (0xff) || map --heads=0 --sectors-per-track=0 --mem /images/memtest.iso (0xff)
+map --hook
+chainloader (0xff)
+### MENU END
+
+### MENU START
+title 		    MHDD\n                        Boot Loader Disc of Zenith Repair          
+ls /images/mhdd.iso || find --set-root /images/mhdd.iso
+map --heads=0 --sectors-per-track=0 /images/mhdd.iso (0xff) || map --heads=0 --sectors-per-track=0 --mem /images/mhdd.iso (0xff)
+map --hook
+chainloader (0xff)
+### MENU END
+
+### MENU END
+title 		    Linux\n                        Boot Loader Disc of Zenith Repair
+configfile /boot/grub4dos/linux.lst
+### MENU END
+
+### MENU END
+title 		    Windows\n                        Boot Loader Disc of Zenith Repair
+configfile /boot/grub4dos/windows.lst
+### MENU END
+
+### MENU END
+title 		    Utility\n                        Boot Loader Disc of Zenith Repair
+configfile /boot/grub4dos/utility.lst
+### MENU END
+
+### MENU START
+title	Boot HDD\n                        Boot Loader Disc of Zenith Repair
+find --set-root --ignore-floppies --ignore-cd /bootmgr || find --set-root --ignore-floppies --ignore-cd /ntldr || rootnoverify (hd0) && chainloader +1 && boot
+map () (hd1) && map (hd1) () && map --rehook
+find --set-root --devices=h /bootmgr || find --set-root --ignore-floppies --ignore-cd /ntldr
+chainloader /bootmgr || chainloader /ntldr
+### MENU END
+
+###title Boot SysLinux Working (/boot/syslinux/syslinux.cfg)
+###chainloader (hd0,0)+1
+
+### MENU START
+###title 		    HDDReg\n                        Boot Loader Disc of Zenith Repair          
+###ls /images/hddreg.iso || find --set-root /images/hddreg.iso
+###map --heads=0 --sectors-per-track=0 /images/hddreg.iso (0xff) || map --heads=0 --sectors-per-track=0 --mem /images/hddreg.iso (0xff)
+###map --hook
+###chainloader (0xff)
+### MENU END
+
+### MENU START
+###title Help!\n
+###ls /images/help.iso || find --set-root /images/help.iso
+###map --heads=0 --sectors-per-track=0 /images/help.iso (0xff) || map --heads=0 --sectors-per-track=0 --mem /images/help.iso (0xff)
+###map --hook
+###chainloader (0xff)
+### MENU END

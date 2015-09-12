@@ -1,0 +1,7 @@
+Set Windows Services To Default Startup:
+
+This will set the Windows services to their default startup state. Special thanks to http://www.blackviper.com/ for having all the default information handy.
+
+This will set the services startup by the "sc config" command and not by the registry.
+
+To edit or view, all services and their startup are in the services_startup.txt in the files folder.

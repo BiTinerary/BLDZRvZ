@@ -1,0 +1,5 @@
+Repair Winsock & DNS Cache:
+
+This will clear the stored DNS cache in Windows. When the DNS becomes corrupt you will not be able to get to some sites. Flushing and rebuilding the DNS will fix that problem.
+Also resets winsock entries & resets TCP/IP stack.
+

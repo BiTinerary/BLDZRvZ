@@ -1,0 +1,6 @@
+Repair Windows Firewall:
+
+This will repair the Windows Firewall. The firewall is built into the system rather deep. And when the firewall becomes corrupt it can still block out side connections from coming in. Even when turned off. Also when corrupt you are unable to add any exceptions to the firewall.
+
+This will repair the firewall and get it working normally again.
+

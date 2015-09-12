@@ -1,0 +1,29 @@
+Reset Registry Permissions:
+
+This repair will reset the permissions on every key in the registry.
+
+When certain registry keys lose their proper permissions, then lots of problems can happen. Such as not being able to register certain files, windows updates failing, programs giving an error because they can't access a certain reg key and so on.
+
+This repair can take a significant amount of time to complete, depending on the speed of your CPU & the number of reg keys.
+
+The permissions are as follows
+
+HKEY_CURRENT_USER 
+Administrators = Full
+System = Full
+Guest = Read
+Everyone = Full
+Current User = Full
+
+HKEY_LOCAL_MACHINE
+Administrators = Full
+System = Full
+Everyone = Full
+Users = Full
+
+HKEY_CLASSES_ROOT
+Administrators = Full
+System = Full
+Everyone = Full
+Users = Read
+

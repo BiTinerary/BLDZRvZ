@@ -1,0 +1,384 @@
+﻿[Main]
+DisplayName=Čeština
+
+[Uninstaller_frmIObitUninstall]
+RdImageButton_Software.caption=Software
+RdImageButton_Browser.caption=Toolbary a pluginy
+RdImageButton_Metro.caption=Aplikace
+lbl_ForcedUninstall.caption=Nucená odinstalace
+lbl_likeIObit.caption=Líbí se!
+PopMenu_Sub_Setting.caption=Nastavení
+PopMenu_Sub_FileShredder.caption=Drtič souborů
+PopMenu_Sub_ExportApplicationList.caption=Exportovat seznam aplikací
+PopMenu_Sub_LogManagement.caption=Správce záznamů
+PopMenu_Sub_Update.caption=Zkontrolovat aktualizace
+PopMenu_Sub_UserManual.caption=Návod k použití
+PopMenu_Sub_TechnicalSupport.caption=Technická podpora
+PopMenu_Sub_IObitOnline.caption=IObit online
+PopMenu_Sub_About.caption=O programu
+Menu_Plugins_Remove.caption=Odstranit
+Menu_plugins_Vote.caption=Hlasovat
+Menu_plugins_Refresh.caption=Obnovit
+Menu_plugins_viewEntry.caption=Otevřít v RegEditoru
+Menu_plugins_OpenFile.caption=Otevřít umístění souboru
+Menu_Plugins_SelectAll.caption=Vybrat vše
+Menu_Plugins_InverseSelect.caption=Opačný výběr
+PopMenu_Uninstall.caption=Odinstalovat
+PopMenu_Refresh.caption=Obnovit
+PopMenu_ViewStyle.caption=Zobrazit podle
+PopMenu_ViewStyle_Icon.caption=Ikony
+PopMenu_ViewStyle_Details.caption=Podrobnosti
+PopMenu_OpenFolder.caption=Otevřít umístění souboru
+PopMenu_ViewEntry.caption=Otevřít v RegEditoru
+PopMenu_SearchOnline.caption=Najít online
+PopMenu_Win8App_Uninstall.caption=Odinstalovat
+PopMenu_Win8App_Refresh.caption=Obnovit
+PopMenu_Win8App_ViewStyle.caption=Zobrazit podle
+PopMenu_Win8App_Icons.caption=Ikony
+PopMenu_Win8App_Details.caption=Podrobnosti
+PopMenu_Win8App_OpenLocation.caption=Otevřít umístění souboru
+PopMenu_Win8App_ViewEntry.caption=Otevřít v RegEditoru
+PopMenu_Win8App_SearchOnline.caption=Najít online
+lbl_Recommend.caption=Doporučit Advanced SystemCare
+lbl_1Click.caption=Ochrana a optimalizace vašeho PC jedním kliknutím
+lbl_Freedownloadnow.caption=Stáhnout
+lbl_News_DisConnection.caption=Sdílejte tento software s přáteli. Budou jistě rádi používat IObit odinstalátor!
+
+[Uninstaller_Frame_Software]
+lblLoading.caption=Načítám aktualizace Windows
+ListView_SoftwareList.Columns[1].Caption=Operace
+ListView_SoftwareList.Columns[2].Caption=Velikost
+ListView_SoftwareList.Columns[3].Caption=Datum instalace
+ListView_SoftwareList.Columns[4].Caption=Verze
+PopMenu_Sub_BatchUninstall.Caption=Hromadná odinstalace
+
+[Uninstaller_frmForcedUninstall]
+lbl_Caption.caption=Nucená odinstalace
+lbl_Detail_Title.caption=Nucený odinstalátor
+lbl_Detail_Detail.caption=Nucená odinstalace vám pomůže odinstalovat program, který nelze odinstalovat běžným způsobem a pomůže též vyčistit jeho zbytky. Lehce odstraní cílovou složku, soubory a jejich zbytky.
+RdImageButton_Browser.caption=Prohledávat...
+lbl_Forced_Tip1.caption=Zde můžete vyhledat a přetáhnout soubor nebo jeho součásti pro odstranění nebo odstranit související soubory programu.
+lbl_Forced_Tip2.caption=Po kliknutí na tlačítko "Další" začne proces nucené odinstalace.
+RdImageButton_Next.caption=Další
+RdImageButton_Cancel.caption=Zrušit
+PopMenu_Uninstall.caption=Odinstalovat
+PopMenu_OpenFolder.caption=Otevřít součást souboru
+PopMenu_ViewEntry.caption=Zobrazit záznam
+PopMenu_SearchOnline.caption=Najít online
+ListView_Search.Columns[0].caption=Název zobrazení
+ListView_Search.Columns[1].caption=Velikost
+ListView_Search.Columns[2].caption=Datum instalace
+
+[Uninstaller_frmLogManage]
+lbl_Caption.caption=Správce záznamů odinstalace
+lbl_Detail_Title.caption=Seznam záznamů
+lbl_Detail_Detail.caption=Zde si můžete prohlédnout a spravovat všechny záznamy odinstalace
+RdImageButton_Open.caption=Otevřít
+RdImageButton_Delete.caption=Odstranit
+RdImageButton_DeleteAll.caption=Odstranit vše
+RdImageButton_Cancel.caption=Zrušit
+
+[Uninstaller_frmUninstallButton]
+lbl_Plugin_Remove.caption=Odstranit
+lbl_Software_Uninstall.caption=Odinstalovat
+
+[Uninstaller_frmUninstalling]
+lbl_Caption.caption=IObit odinstalátor
+lbl_UninstallComplete_Title.caption=Standardní odinstalace dokončena
+lbl_Uninstalling_question.caption=Opravdu chcete odinstalovat vybraný program?
+lbl_PowerfulScan_Title.caption=Pokročilé skenování
+lbl_PowerfulScan_Detaill.caption=Klikněte na "Pokročilé skenování" pro vyčistění zbytků programu. Klikněte na "Zrušit" pro ukončení.
+lbl_PowerScan_Title_Softwre.caption=Skenuji zbytky programu
+lbl_CreateRestore_Title.caption=Vytvořit bod obnovy před odinstalací
+lbl_CreateRestore_Check.caption=Vytvářím bod obnovy před odinstalací...
+lbl_CreateRestore_Detaill.caption=Vytvořte bod obnovy. Pokud se stane něco neočekávaného, můžete provedené změny vrátit zpět.
+lbl_AutoPowerfulScan.caption=Automaticky začít "Pokročilé skenování"
+lbl_AutoUninstaller.caption=Nezobrazovat toto oznámení
+RdImageButton_Uninstall.caption=Odinstalovat
+RdImageButton_PowerFulScan.caption=Pokročilé skenování
+RdImageButton_Cancel.caption=Zrušit
+
+[Uninstaller_frmPowerScan]
+lbl_Caption.caption=Pokročilé skenování
+lbl_Warning_Title.caption=Varování:
+lbl_Warning_Detail.caption=Detekováno několik programů v tomto adresáři. Prosím, buďte opatrní při výběru položek k odstranění.
+lbl_FileShredder.caption=Odstranit soubory
+lbl_SelectAll.caption=Vybrat vše
+RdImageButton_Delete.caption=Odstranit
+RdImageButton_Cancel.caption=Zrušit
+lbl_Shredder_Tip.caption=Odstraňuji soubory. Může to nějaký čas trvat, počkejte prosím...
+Menu_ListView_Regedit.caption=Otevřít v RegEditoru
+Menu_ListView_Path.caption=Otevřít umístění souboru
+
+[Uninstaller_frmAbout]
+lbl_Warnning_Title.caption=Varování:
+lbl_Warnning_Detaill.caption=Tento počítačový program je chráněn autorským zákonem a mezinárodními úmluvami.
+lbl_copyright.caption=Copyright © 2005-2015 IObit. Všechna práva vyhrazena.
+lbl_Thanks_Title.caption=Velké poděkování patří následujícím lidem za jejich skvělé příspěvky:
+
+[Uninstaller_frmSetting]
+lbl_Caption.caption=Nastavení
+lbl_General.caption=Hlavní
+lbl_AutoUninstaller.caption=Přeskočit oznámení o potvrzení odinstalace a vytvoření bodu obnovení
+lbl_AutoPowerfulScan.caption=Automaticky provést "Pokročilé skenování"
+lbl_ShowExplorerButton.caption=Přidat tlačítko "Drtič souborů" do Průzkumníka Windows
+lbl_AutoShowTipForm.caption=Provést pokročilé skenování po odinstalaci
+lbl_Language.caption=Jazyk
+lbl_CurrentLanguage_Title.caption=Aktuální jazyk:
+lbl_SkinTitle.caption=Vzhled:
+lbl_classic.caption=Klasický
+lbl_Metro.caption=Modrý
+RdImageButton_OK.caption=OK
+RdImageButton_Cancel.caption=Zrušit
+
+[Uninstaller_frmFileShredder]
+lbl_Caption.caption=Drtič souborů
+lbl_Detail_Detail.caption=Jak víte, soubory odstraněné z počítače lze obnovit i po formátování disku. Normální odstranění smaže pouze název souboru bez toho, abyste se dotkli obsahu. Pokud máte důležité soubory, které musí být natrvalo odstraněny, IObit odinstalátor vám pomůže drtičem souborů.
+lbl_Listview_Title.caption=Vyberte soubor nebo součást, kterou chcete odstranit
+lblLoading.caption=Načítám...
+lbl_AddFile.caption=Přidat soubor
+lbl_AddFolder.caption=Přidat součást
+RdImageButton_Shredder.caption=Odstranit
+RdImageButton_Cancel.caption=Zrušit
+ListView_FileList.Columns[0].Caption=Cílový soubor
+Menu_Shredder_Shredder.caption=Drtič
+Menu_Shredder_AddFile.caption=Přidat soubor
+Menu_Shredder_AddFolder.caption=Přidat součást
+Menu_Shredder_Romove.caption=Odstranit
+Menu_Shredder_Clean.caption=Vyčistit
+lbl_Shredder_Tip.caption=Odstraňuji soubory. Může to nějaký čas trvat, počkejte prosím...
+
+[Uninstaller_frmSystemRestore]
+lbl_Caption.caption=Obnovení systému
+lbl_Detail_Title.caption=Obnovení systému
+lbl_Detail_Detail.caption=Spravuje body obnovení systému. Poslední bod nemůže být odstraněn kvůli systémové bezpečnosti.
+ListView_Restore.Columns[0].caption=Datum a čas
+ListView_Restore.Columns[1].caption=Popis
+lbl_Restore_Tip.caption=Obnovuji soubory systému a nastavení, počkejte prosím...
+RdImageButton_Restore.caption=Obnovit
+RdImageButton_Delete.caption=Odstranit
+RdImageButton_Cancel.caption=Zrušit
+
+[Uninstaller_frmInstallerSetup]
+lbl_Installer_Setup_Title.caption=Nejlepší odinstalátor pro odstranění nežádoucích aplikací, toolbarů a pluginů.
+lbl_Installer_Setup_Title1.caption=Nejlepší odinstalátor pro odstranění nežádoucích aplikací, toolbarů a pluginů.
+RdImageButton_Installer.caption=Spustit
+lbl_Installer_Setup_Detail.caption=Přečteno a přijímám
+lbl_LicenseAgreement.caption=Licenční smlouva
+
+[Uninstaller_frmInstaller_EULA]
+lbl_Caption.caption=Licenční smlouva
+RdImageButton_Cancel.caption=Zavřít
+
+[Uninstaller_fraBrowserCleaner]
+rdibtnAllBrowses.Caption=Všechny toolbary a pluginy
+rdlvAllBrowse.Columns[0].Caption=Název
+rdlvAllBrowse.Columns[1].Caption=Hodnocení uživatelů
+rdlvAllBrowse.Columns[2].Caption=Moje hodnocení
+rdlvAllBrowse.Columns[3].Caption=Vydavatel
+rdlvAllBrowse.Columns[4].Caption=Operace
+rdlvCustomBrowse.Columns[0].Caption=Název
+rdlvCustomBrowse.Columns[1].Caption=Vydavatel
+
+[Uninstaller_frmPluginVote]
+lblTitle.Caption=Hodnotit
+lblWaiting.Caption=Odesílám hodnocení, počkejte prosím...
+rdibtnLv1.Caption=1 hvězda
+rdibtnLv2.Caption=2 hvězdy
+rdibtnLv3.Caption=3 hvězdy
+rdibtnLv4.Caption=4 hvězdy
+rdibtnLv5.Caption=5 hvězd
+rdibtnVote.Caption=Hodnocení
+
+[Uninstaller_frmRestBrowserDefault]
+lblTitle.Caption=Předvolené nastavení
+lblConfire.Caption=Jste si jistí, že chcete obnovit nastavení?
+lblHomepageTitle.Caption=Aktuální domovská stránka:
+lblSearchTitle.Caption=Aktuální domovský vyhledávač:
+rdibtnOK.Caption=OK
+rdibtnCancel.Caption=Zrušit
+
+[Uninstaller_Frame_Win8App]
+ListView_AppList.Columns[0].caption=Název
+ListView_AppList.Columns[1].caption=Operace
+ListView_AppList.Columns[2].caption=Velikost
+ListView_AppList.Columns[3].caption=Datum instalace
+ListView_AppList.Columns[4].caption=Verze
+PopMenu_Sub_BatchUninstall.caption=Hromadná odinstalace
+lblLoading.caption=Obnovuji...
+
+[Uninstaller_frmWinAppUninstaller_ASK]
+lblHit.caption=Tyto aplikace jsou v jednom adresáři. Odinstalace některé z nich odinstaluje také všechny ostatní. Opravdu je chcete odinstalovat?
+lblUninstalling.caption=Odinstaluji
+btnImgUninstall.caption=Odinstalovat
+btnImgCancle.caption=Zrušit
+
+[uninstall_Mitor_M]
+lbl_attention.caption=Upozornění
+lbl_show.caption="%s" nalezených zbytků, které mohou mít vliv na výkon počítače.
+lbl_again.caption=Znovu nezobrazovat
+img_power.caption=Vyčistit
+
+[Uninstaller_M]
+Edit_Search_Tip=Najít program
+Edit_Search_Tip_Toolbar=Najít toolbar nebo plugin
+Edit_Search_Tip_Win8App=Najít aplikaci
+ForcedUninstall_Browser_Tip=Neplatný cíl. Prosím vyberte znovu!
+ListView_Icon_Hint=Ikony
+ListView_List_Hint=Podrobnosti
+ListView_View_Hint=Změnit zobrazení
+ListviewHeader_Software=Název programu (celkem: %d)
+BatchUninstall_NoneSelect=Prosím, vyberte alespoň jeden program.
+Uninstall_NoneSelect=Prosím, vyberte program.
+WindowState_Max=Maximalizovat
+WindowState_Normor=Obnovit
+WindowState_Min=Minimalizovat
+Close=Zavřít
+MoreMenu_Setting=Rozšířené nastavení
+Restore_Form=Obnovit
+Log_DeleteAll_ASK=Opravdu chcete odstranit všechny soubory? Nelze vzít zpět!
+Log_Delete_ASK=Opravdu chcete odstranit všechny soubory? Nelze vzít zpět!
+NoPowerfulScan_Found_Tip=Nebyly nalezeny žádné zbytky.
+Log_M=Záznam
+App_Version_M=Verze programu:
+OS_Version_M=Operační systém:
+Date_M=Datum
+Version_M=Verze
+Publisher_M=Vydavatel
+Install_Date_M=Datum instalace
+Create_Restore_M=Vytvořit bod obnovení
+CreateRestore_Title_M=Vytvořit bod obnovení před odinstalací.
+CreateRestore_Detaill_M=Vytvořte bod obnovy. Pokud se stane něco neočekávaného, můžete provedené změny vrátit zpět.
+Uninstalling_M=Odinstaluji
+Uninstalling_Detaill_M=Standardní odinstalace s použitím aplikací zabudovaného odinstalátoru.
+Uninstalling_QuickDetaill_M=Rychlá odinstalace s použitím aplikací zabudovaného odinstalátoru.
+UninstallComplete_Title_M=Soubory byly odstraněny.
+Quick_UninstallComplete_M=Rychlá odinstalace dokončena.
+Quick_Uninstall_M=Rychlá odinstalace %s (%d/%d)
+Standard_Uninstall_M=Standardní odinstalace %s (%d/%d)
+Uninstall_M=Odinstalace %s (1/1)
+Deselect_All_M=Vybrat nic
+Select_All_M=Vybrat vše
+PowerfulScan_DeleteASK_M=Opravdu chcete odstranit vybrané položky?
+Operation_M=Operace
+Powerful_Scan_M=Pokročilé skenování
+Deleted_Registry_Key_M=Odstraněn klíč registru
+Deleted_Registry_Value_M=Odstraněna hodnota registru
+Delete_File_M=Odstranit soubor
+Delete_Folder_M=Odstranit součást
+Reboot_to_Delete_M=(Nutno restartovat pro úplné odstranění)
+Delete_finished_M=Odstranit dokončené.
+ReStartup_to_Delete_M=Zbývající soubory v seznamu budou smazány při budoucím startu systému.
+Shredder_Del_M=Opravdu chcete trvale odstranit %d soubor(ů)? Odstranění je absolutně nevratné a bude trvat delší dobu.
+Shredder_NotDel_M="%s" nebylo odstraněno, protože je nelze odstranit. Prosím zkontrolujte, zda se právě nepoužívají.
+Shredder_InUse_M=Některé soubory nebyly odstraněny, protože je nelze odstranit. Prosím zkontrolujte, zda se právě nepoužívají.
+Shredder_NotAddFolder_M=Nelze odstranit soubor "%s", neboť tato operace může způsobit nestabilitu systému.
+Shredder_Sucess_M=Soubory úspěšně odstraněny.
+Shredder_DirIsEmpty_M=Prázdné. Nelze odstranit.
+Controlpanel_Button=Pokročilá odinstalace
+Explorer_Button=Odstranit soubor
+MenuRight_Caption=Pokročilá odinstalace
+Frequency_M=Frekvence použití
+InstallerDate_M=Datum instalace
+Frequency_SoftwareCount_M=<a>%s</a> nalezeno zřídka používaných programů. Jejich odinstalováním <a>%s</a> můžete zvýšit výkon PC.
+Frequency_DaysHint_M=Nepoužívané %s dní.
+SearchLoadingMsg=Hledám toolbary a pluginy
+RestoreDefaultSettingsButton=Obnovit %s nastavení
+ListViewItemVote=Hodnotit
+ListViewItemVoted=Hodnocené
+ListViewItemTrust=Důvěryhodné
+ListViewItemUnTrust=Nedůvěryhodné
+ListViewPlugSysbit=bit
+ListViewGroupTrustTitle=Důvěryhodné toolbary a pluginy
+ListViewGroupTrustDesc=Tyto toolbary a pluginy neškodí vašemu počítači. Můžete je odstranit nebo ponechat pro vlastní potřebu.
+ListViewGroupUnTrustTitle=Toolbary a pluginy doporučené pro odstranění
+ListViewGroupUnTrustDesc=Tyto toolbary a pluginy s nízkým hodnocením uživatelů mohou obsahovat některé nežádoucí funkce.
+ListViewGroupToolbar=Toolbar
+ListViewGroupBHO=BHO
+ListViewGroupActiveX=ActiveX
+ListViewGroupExtensions=Rozšíření
+ListViewGroupPlugins=Pluginy
+FuncCheckBrowserMsgBox_1=%s je spuštěných.
+FuncCheckBrowserMsgBox_2=Klikněte na "OK" pro zavření (uloží obsah).
+FuncCheckBrowserMsgBox_3=nebo klikněte na "Zrušit" pro zrušení operace.
+FuncPluginRmoveConfireMsgBox=Jste si jisti, že chcete odstranit tyto vybrané položky?
+FuncPluginRemoveSuccessMsgBox=Položky úspěšně odstraněny
+FuncPluginRemoveFailedMsgBox_1=Nepodařilo se odstranit následující položky:
+FuncPluginRemoveFailedMsgBox_2=Ukončete prosím tyto otevřené prohlížeče pro odstranění všech položek:
+FuncPluginRemoveFailedMsgBox_3=Ukončete prosím váš prohlížeč a zkuste to znovu.
+FuncPluginSelectMsgBox=Nejprve zvolte položku
+FuncVoteConfire=Co si myslíte o:
+FuncVoteHavedVote=Již jste hodnotil/a
+FuncVotePlugSelectMsgBox=Prosím, vyberte položku, kterou chcete hodnotit
+FuncVoteMarkSelectMsgBox=Prosím ohodnoťte:
+FuncVoteFailedMsgBox=Hodnocení neúspěšné, prosím zkontrolujte své síťové připojení a akci opakujte.
+FuncRestoreExitBrowserMsgBox=Prosím ukončete %s
+FuncRestoreSuccessMsgBox=Prohlížeč úspěšně obnoven do zvoleného nastavení
+FuncRestoreFailedMsgBox=Prohlížeč se nepodařilo obnovit do zvoleného nastavení. Prosím, ukončete %s a zkuste to znovu.
+Guest_Start_Tip=Jste přihlášen/a do systému s účtem hosta! Musíte mít práva administrátora pro používání IObit odinstalátoru.
+p_RegistryCaption_M=Registr
+p_FileCaption_M=Soubor
+p_FormatOneItem_M=1 položka
+p_FormatItems_M=%d položek
+FuncVoteActiveVote=Hodnotit
+FuncVoteActiveOK=OK
+FuncVoteNothing=Zatím nehodnoceno
+FuncVoteCount=uživatelů dosud hodnotilo
+FuncVoteVSA=Žádné přijaté hodnocení
+FuncVoteCFA=Buďte první, kdo ohodnotí
+FuncVoteVSB=uživatelů hodnotilo
+FuncVoteCFB=Co si myslíte o tomto pluginu:
+FuncVoteVSC=Bez hodnocení ostatních
+FuncVoteCFC=Již jste hodnotil/a
+FuncVoteVSD=uživatelů hodnotilo
+FuncVoteCFD=Již jste hodnotil/a
+AllBrowserItem=Všechny toolbary a pluginy
+Powerful_Tip_M=Pokročilé skenování zbytků "%s"
+Setup_Win8_Detail_M=Podporuje rychlou odinstalaci aplikací Windows
+Setup_Notwin8_Detail_M=Podporuje rychlou odinstalaci
+RestrorePoint_Tip_M=Varování: Obnovení systému do bodu obnovení vrátí zpět všechny změny provedené po tomto bodu obnovení. Pokud tento proces obnovení systému začnete, již není možné jej vrátit zpět nebo přerušit. Jste si jisti, že chcete pokračovat?
+RestorePoint_Restart_M=Obnovení systému potřebuje restartovat počítač pro použití všech změn. Než budete pokračovat, uložte všechny otevřené soubory a ukončete všechny programy.
+Uninstaller_Quick_M=Rychlá odinstalace
+Uninstaller_Standed_M=Odinstalovat
+QuickUninstall_Tip_M=Odinstalovat program jedním kliknutím
+Frequency_SoftwareCount_M=<a>%s</a> nalezeno zřídka používaných programů. Jejich odinstalováním <a>%s</a> můžete zvýšit výkon PC.
+Frequency_DaysHint_M=Nepoužívané %s dny.
+InfrequentlyUsed_Count_M=Zřídka používané ( <a>%s</a> )
+All_Programs_M=Všechny programy
+Recently_Installed_M=Nedávno nainstalované
+Large_Programs_M=Velké programy
+Infrequently_Used_M=Zřídka používané
+Windows_Updates_M=Windows aktualizace
+FuncCheckBrowserMsgBox_1=%s je spuštěno
+FuncCheckBrowserMsgBox_2=klikněte na "OK" pro zavření (může dojít ke ztrátě neuloženého obsahu)
+FuncCheckBrowserMsgBox_3=klikněte na "Zrušit" pro zrušení operace
+FuncCheckBrowserMsgBox_4=%s je spuštěno
+FuncCheckBrowserMsgBox_5=klikněte na "OK" pro násilné vypnutí (může dojít ke ztrátě neuloženého obsahu)
+FuncCheckBrowserMsgBox_6=klikněte na "Zrušit" pro zrušení této operace
+Win8OtherUser=Pro zobrazení vašich aplikací se ujistěte, že váš aktuální účet má oprávnění správce.
+Win8AdminUser=Pomůže vám odinstalovat nepotřebné aplikace a jejich zbytky kompletně jediným kliknutím.
+Win8ListViewGroupsWin8AppHeader=Aplikace Windows
+Win8ListViewGroupsWin8AppSubtitle=Aplikace jsou vlastnictvím společnosti Microsoft.
+Win8ListViewGroupsThirdHeader=Aplikace třetích stran
+Win8ListViewGroupsThirdSubtitle=Aplikace jsou vlastnictvím společností třetích stran.
+Win8OtherUser=Pro zobrazení vašich aplikací se ujistěte, že váš aktuální účet má oprávnění správce.
+win8_UninstallBtn_M=Odinstalovat
+win8_ListViewIcon_M=Ikony zobrazení
+win8_ListViewList_M=Podrobnosti zobrazení
+
+[ACD_frmDownloader]
+lbl_Cancel.Caption=Zrušit
+lbl_Min.Caption=Minimalizovat
+
+[ACD_M]
+M_Downloading=Stahuji:
+m_Installing=Instaluji:
+M_DiskIsFull=Nedostatek místa na disku!
+M_NetError=Síťová chyba. Prosím zkuste to znovu později.
+M_Tips=Proces stahování. Dvojklikem na ikonu zobrazíte podrobnosti.
+M_TipDownLoading=Stahuji...
+M_TipInstalling=Instaluji...
+M_MD5Faild=Stažený soubor je poškozen. Zkuste to znovu později.
+M_AreSure=Jste si jisti, že chcete ukončit stahování?
+M_Speed=Rychlost:
+M_Title=Stahování...

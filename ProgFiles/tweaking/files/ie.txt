@@ -1,0 +1,264 @@
+regsvr32 acelpdec.ax /s
+regsvr32 actxprxy.dll /s
+regsvr32 asctrls.ocx /s
+regsvr32 browseui.dll /I /s
+regsvr32 browseui.dll /s
+regsvr32 browsewm.dll /s
+regsvr32 cdfview.dll /s
+regsvr32 comcat.dll /s
+regsvr32 /s /i /n comctl32.dll
+regsvr32 comctl32.dll /i /s
+regsvr32 corpol.dll /s
+regsvr32 CRSWPP.DLL /s
+regsvr32 cryptdlg.dll /s
+regsvr32 CRYPTDLG.DLL /s
+regsvr32 cryptext.dll /s
+regsvr32 CSSEQCHK.DLL /s
+regsvr32 danim.dll /s
+regsvr32 datime.dll /s
+regsvr32 Daxctle.ocx /s
+regsvr32 dhtmled.ocx /s
+regsvr32 /s /i /n digest.dll
+regsvr32 digest.dll /i /s
+regsvr32 directdb.dll /s
+regsvr32 dispex.dll /s
+regsvr32 DSSENH.DLL /s
+regsvr32 dxmasf.dll /s
+regsvr32 dxtmsft.dll /s
+regsvr32 dxtrans.dll /s
+regsvr32 /s extmgr.dll
+regsvr32 FLUPL.OCX /s
+regsvr32 FPWPP.DLL /s
+regsvr32 FTPWPP.DLL /s
+regsvr32 Gpkcsp.dll /s
+regsvr32 hhctrl.ocx /s
+regsvr32 hlink.dll /s
+regsvr32 hmmapi.dll /s
+regsvr32 icmfilter.dll /s
+regsvr32 /s ieaksie.dll
+regsvr32 /s ieapfltr.dll
+regsvr32 /s iedkcs32.dll
+regsvr32 iepeers.dll /s
+regsvr32 iesetup.dll /i /s
+regsvr32 ils.dll /s
+regsvr32 imgutil.dll /s
+regsvr32 inetcfg.dll /s
+regsvr32 inetcomm.dll /s
+regsvr32 /s /i /n inetcpl.cpl
+regsvr32 inetcpl.cpl /i /s
+regsvr32 /s /i:A initpki.dll
+regsvr32 inseng.dll /s
+regsvr32 jscript.dll /s
+regsvr32 l3codecx.ax /s
+regsvr32 laprxy.dll /s
+regsvr32 licdll.dll /s
+regsvr32 licmgr10.dll /s
+regsvr32 lmrt.dll /s
+regsvr32 mlang.dll /s
+regsvr32 mmefxe.ocx /s
+regsvr32 mobsync.dll /s
+regsvr32 mpg4ds32.ax /s
+regsvr32 msapsspc.dll /SspcCreateSspiReg /s
+regsvr32 /s mscoree.dll
+regsvr32 /s msdbg2.dll
+regsvr32 msdxm.ocx /s
+regsvr32 mshtml.dll /i /s
+regsvr32 mshtml.dll /s
+regsvr32 mshtmled.dll /s
+regsvr32 msident.dll /s
+regsvr32 msieftp.dll /s
+regsvr32 msnsspc.dll /SspcCreateSspiReg /s
+regsvr32 msoe.dll /s
+regsvr32 msoeacct.dll /s
+regsvr32 MSR2C.DLL /s
+regsvr32 msrating.dll /s
+regsvr32 MSTIME.DLL /s
+regsvr32 msxml.dll /s
+regsvr32 occache.dll /i /s
+regsvr32 occache.dll /s
+regsvr32 oeimport.dll /s
+regsvr32 oemiglib.dll /s
+regsvr32 /s oleacc.dll
+regsvr32 /s ole32.dll
+regsvr32 oleaut32.dll /s
+regsvr32 plugin.ocx /s
+regsvr32 pngfilt.dll /s
+regsvr32 POSTWPP.DLL /s
+regsvr32 /s proctexe.ocx
+regsvr32 regwizc.dll /s
+regsvr32 rsabase.dll /s
+regsvr32 RSAENH.DLL /s
+regsvr32 Sccbase.dll /s
+regsvr32 scrobj.dll /s
+regsvr32 scrrun.dll mstinit.exe /setup /s
+regsvr32 sendmail.dll /s
+regsvr32 setupwbv.dll /s
+regsvr32 shdoc401.dll /i /s
+regsvr32 shdoc401.dll /s
+regsvr32 shdocvw.dll /I /s
+regsvr32 shdocvw.dll /s
+regsvr32 Slbcsp.dll /s
+regsvr32 softpub.dll /s
+regsvr32 tdc.ocx /s
+regsvr32 thumbvw.dll /s
+regsvr32 trialoc.dll /s
+regsvr32 triedit.dll /s
+regsvr32 urlmon.dll /i /s
+regsvr32 urlmon.dll /s
+regsvr32 vbscript.dll /s
+regsvr32 vgx.dll /s
+regsvr32 voxmsdec.ax /s
+regsvr32 wab32.dll /s
+regsvr32 wabfind.dll /s
+regsvr32 wabimp.dll /s
+regsvr32 webcheck.dll /s
+regsvr32 WEBPOST.DLL /s
+regsvr32 /s /i /n wininet.dll
+regsvr32 wininet.dll /i /s
+regsvr32 wininet.dll /s
+regsvr32 WINTRUST.DLL /s
+regsvr32 WPWIZDLL.DLL /s
+regsvr32 wshext.dll /s
+regsvr32 wshom.ocx /s
+regsvr32 xmsconf.ocx /s
+
+regsvr32 /s "%ProgramFiles%\internet explorer\hmmapi.dll"
+regsvr32 /s "%ProgramFiles%\internet explorer\iedvtool.dll"
+regsvr32 /s "%ProgramFiles%\internet explorer\ieproxy.dll"
+regsvr32 /s "%ProgramFiles%\internet explorer\pdm.dll"
+regsvr32 /s "%CommonProgramFiles%\microsoft shared\vgx\vgx.dll"
+
+IF NOT EXIST %systemroot%\SysWoW64\regsvr32.exe goto :end
+
+%systemroot%\SysWoW64\regsvr32.exe acelpdec.ax /s
+%systemroot%\SysWoW64\regsvr32.exe actxprxy.dll /s
+%systemroot%\SysWoW64\regsvr32.exe asctrls.ocx /s
+%systemroot%\SysWoW64\regsvr32.exe browseui.dll /I /s
+%systemroot%\SysWoW64\regsvr32.exe browseui.dll /s
+%systemroot%\SysWoW64\regsvr32.exe browsewm.dll /s
+%systemroot%\SysWoW64\regsvr32.exe cdfview.dll /s
+%systemroot%\SysWoW64\regsvr32.exe comcat.dll /s
+%systemroot%\SysWoW64\regsvr32.exe /s /i /n comctl32.dll
+%systemroot%\SysWoW64\regsvr32.exe comctl32.dll /i /s
+%systemroot%\SysWoW64\regsvr32.exe corpol.dll /s
+%systemroot%\SysWoW64\regsvr32.exe CRSWPP.DLL /s
+%systemroot%\SysWoW64\regsvr32.exe cryptdlg.dll /s
+%systemroot%\SysWoW64\regsvr32.exe CRYPTDLG.DLL /s
+%systemroot%\SysWoW64\regsvr32.exe cryptext.dll /s
+%systemroot%\SysWoW64\regsvr32.exe CSSEQCHK.DLL /s
+%systemroot%\SysWoW64\regsvr32.exe danim.dll /s
+%systemroot%\SysWoW64\regsvr32.exe datime.dll /s
+%systemroot%\SysWoW64\regsvr32.exe Daxctle.ocx /s
+%systemroot%\SysWoW64\regsvr32.exe dhtmled.ocx /s
+%systemroot%\SysWoW64\regsvr32.exe /s /i /n digest.dll
+%systemroot%\SysWoW64\regsvr32.exe digest.dll /i /s
+%systemroot%\SysWoW64\regsvr32.exe directdb.dll /s
+%systemroot%\SysWoW64\regsvr32.exe dispex.dll /s
+%systemroot%\SysWoW64\regsvr32.exe DSSENH.DLL /s
+%systemroot%\SysWoW64\regsvr32.exe dxmasf.dll /s
+%systemroot%\SysWoW64\regsvr32.exe dxtmsft.dll /s
+%systemroot%\SysWoW64\regsvr32.exe dxtrans.dll /s
+%systemroot%\SysWoW64\regsvr32.exe /s extmgr.dll
+%systemroot%\SysWoW64\regsvr32.exe FLUPL.OCX /s
+%systemroot%\SysWoW64\regsvr32.exe FPWPP.DLL /s
+%systemroot%\SysWoW64\regsvr32.exe FTPWPP.DLL /s
+%systemroot%\SysWoW64\regsvr32.exe Gpkcsp.dll /s
+%systemroot%\SysWoW64\regsvr32.exe hhctrl.ocx /s
+%systemroot%\SysWoW64\regsvr32.exe hlink.dll /s
+%systemroot%\SysWoW64\regsvr32.exe hmmapi.dll /s
+%systemroot%\SysWoW64\regsvr32.exe icmfilter.dll /s
+%systemroot%\SysWoW64\regsvr32.exe /s ieaksie.dll
+%systemroot%\SysWoW64\regsvr32.exe /s ieapfltr.dll
+%systemroot%\SysWoW64\regsvr32.exe /s iedkcs32.dll
+%systemroot%\SysWoW64\regsvr32.exe iepeers.dll /s
+%systemroot%\SysWoW64\regsvr32.exe iesetup.dll /i /s
+%systemroot%\SysWoW64\regsvr32.exe ils.dll /s
+%systemroot%\SysWoW64\regsvr32.exe imgutil.dll /s
+%systemroot%\SysWoW64\regsvr32.exe inetcfg.dll /s
+%systemroot%\SysWoW64\regsvr32.exe inetcomm.dll /s
+%systemroot%\SysWoW64\regsvr32.exe /s /i /n inetcpl.cpl
+%systemroot%\SysWoW64\regsvr32.exe inetcpl.cpl /i /s
+%systemroot%\SysWoW64\regsvr32.exe /s /i:A initpki.dll
+%systemroot%\SysWoW64\regsvr32.exe inseng.dll /s
+%systemroot%\SysWoW64\regsvr32.exe jscript.dll /s
+%systemroot%\SysWoW64\regsvr32.exe l3codecx.ax /s
+%systemroot%\SysWoW64\regsvr32.exe laprxy.dll /s
+%systemroot%\SysWoW64\regsvr32.exe licdll.dll /s
+%systemroot%\SysWoW64\regsvr32.exe licmgr10.dll /s
+%systemroot%\SysWoW64\regsvr32.exe lmrt.dll /s
+%systemroot%\SysWoW64\regsvr32.exe mlang.dll /s
+%systemroot%\SysWoW64\regsvr32.exe mmefxe.ocx /s
+%systemroot%\SysWoW64\regsvr32.exe mobsync.dll /s
+%systemroot%\SysWoW64\regsvr32.exe mpg4ds32.ax /s
+%systemroot%\SysWoW64\regsvr32.exe msapsspc.dll /SspcCreateSspiReg /s
+%systemroot%\SysWoW64\regsvr32.exe /s mscoree.dll
+%systemroot%\SysWoW64\regsvr32.exe /s msdbg2.dll
+%systemroot%\SysWoW64\regsvr32.exe msdxm.ocx /s
+%systemroot%\SysWoW64\regsvr32.exe mshtml.dll /i /s
+%systemroot%\SysWoW64\regsvr32.exe mshtml.dll /s
+%systemroot%\SysWoW64\regsvr32.exe mshtmled.dll /s
+%systemroot%\SysWoW64\regsvr32.exe msident.dll /s
+%systemroot%\SysWoW64\regsvr32.exe msieftp.dll /s
+%systemroot%\SysWoW64\regsvr32.exe msnsspc.dll /SspcCreateSspiReg /s
+%systemroot%\SysWoW64\regsvr32.exe msoe.dll /s
+%systemroot%\SysWoW64\regsvr32.exe msoeacct.dll /s
+%systemroot%\SysWoW64\regsvr32.exe MSR2C.DLL /s
+%systemroot%\SysWoW64\regsvr32.exe msrating.dll /s
+%systemroot%\SysWoW64\regsvr32.exe MSTIME.DLL /s
+%systemroot%\SysWoW64\regsvr32.exe msxml.dll /s
+%systemroot%\SysWoW64\regsvr32.exe occache.dll /i /s
+%systemroot%\SysWoW64\regsvr32.exe occache.dll /s
+%systemroot%\SysWoW64\regsvr32.exe oeimport.dll /s
+%systemroot%\SysWoW64\regsvr32.exe oemiglib.dll /s
+%systemroot%\SysWoW64\regsvr32.exe /s oleacc.dll
+%systemroot%\SysWoW64\regsvr32.exe /s ole32.dll
+%systemroot%\SysWoW64\regsvr32.exe oleaut32.dll /s
+%systemroot%\SysWoW64\regsvr32.exe plugin.ocx /s
+%systemroot%\SysWoW64\regsvr32.exe pngfilt.dll /s
+%systemroot%\SysWoW64\regsvr32.exe POSTWPP.DLL /s
+%systemroot%\SysWoW64\regsvr32.exe /s proctexe.ocx
+%systemroot%\SysWoW64\regsvr32.exe regwizc.dll /s
+%systemroot%\SysWoW64\regsvr32.exe rsabase.dll /s
+%systemroot%\SysWoW64\regsvr32.exe RSAENH.DLL /s
+%systemroot%\SysWoW64\regsvr32.exe Sccbase.dll /s
+%systemroot%\SysWoW64\regsvr32.exe scrobj.dll /s
+%systemroot%\SysWoW64\regsvr32.exe scrrun.dll mstinit.exe /setup /s
+%systemroot%\SysWoW64\regsvr32.exe sendmail.dll /s
+%systemroot%\SysWoW64\regsvr32.exe setupwbv.dll /s
+%systemroot%\SysWoW64\regsvr32.exe shdoc401.dll /i /s
+%systemroot%\SysWoW64\regsvr32.exe shdoc401.dll /s
+%systemroot%\SysWoW64\regsvr32.exe shdocvw.dll /I /s
+%systemroot%\SysWoW64\regsvr32.exe shdocvw.dll /s
+%systemroot%\SysWoW64\regsvr32.exe Slbcsp.dll /s
+%systemroot%\SysWoW64\regsvr32.exe softpub.dll /s
+%systemroot%\SysWoW64\regsvr32.exe tdc.ocx /s
+%systemroot%\SysWoW64\regsvr32.exe thumbvw.dll /s
+%systemroot%\SysWoW64\regsvr32.exe trialoc.dll /s
+%systemroot%\SysWoW64\regsvr32.exe triedit.dll /s
+%systemroot%\SysWoW64\regsvr32.exe urlmon.dll /i /s
+%systemroot%\SysWoW64\regsvr32.exe urlmon.dll /s
+%systemroot%\SysWoW64\regsvr32.exe vbscript.dll /s
+%systemroot%\SysWoW64\regsvr32.exe vgx.dll /s
+%systemroot%\SysWoW64\regsvr32.exe voxmsdec.ax /s
+%systemroot%\SysWoW64\regsvr32.exe wab32.dll /s
+%systemroot%\SysWoW64\regsvr32.exe wabfind.dll /s
+%systemroot%\SysWoW64\regsvr32.exe wabimp.dll /s
+%systemroot%\SysWoW64\regsvr32.exe webcheck.dll /s
+%systemroot%\SysWoW64\regsvr32.exe WEBPOST.DLL /s
+%systemroot%\SysWoW64\regsvr32.exe /s /i /n wininet.dll
+%systemroot%\SysWoW64\regsvr32.exe wininet.dll /i /s
+%systemroot%\SysWoW64\regsvr32.exe wininet.dll /s
+%systemroot%\SysWoW64\regsvr32.exe WINTRUST.DLL /s
+%systemroot%\SysWoW64\regsvr32.exe WPWIZDLL.DLL /s
+%systemroot%\SysWoW64\regsvr32.exe wshext.dll /s
+%systemroot%\SysWoW64\regsvr32.exe wshom.ocx /s
+%systemroot%\SysWoW64\regsvr32.exe xmsconf.ocx /s
+
+
+%systemroot%\SysWoW64\regsvr32.exe /s "%ProgramFiles(x86)%\internet explorer\hmmapi.dll"
+%systemroot%\SysWoW64\regsvr32.exe /s "%ProgramFiles(x86)%\internet explorer\iedvtool.dll"
+%systemroot%\SysWoW64\regsvr32.exe /s "%ProgramFiles(x86)%\internet explorer\ieproxy.dll"
+%systemroot%\SysWoW64\regsvr32.exe /s "%ProgramFiles(x86)%\internet explorer\pdm.dll"
+%systemroot%\SysWoW64\regsvr32.exe /s "%CommonProgramFiles(x86)%\microsoft shared\vgx\vgx.dll"
+
+:end

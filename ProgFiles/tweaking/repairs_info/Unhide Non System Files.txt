@@ -1,0 +1,9 @@
+Unhide Non System Files:
+
+Some new viruses hide every single file on the system. This repair will unhide every file on the system that is not a system file.
+
+It checks the attributes of each file, and if it is hidden and not a system file it will unhide the file. This way normal hidden system files stay hidden, such as desktop.ini and such.
+
+This repair can take a significant amount of time to complete, depending on the speed of your CPU & the number of files.
+
+

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <assemblyIdentity name="Tweaking.com.TweakingRegistryBackup" processorArchitecture="X86" type="win32" version="1.0.0.0" />
+  <description>Tweaking.com - Registry Backup</description>
+  <file name="pcwintech_tasksch.dll">
+    <typelib tlbid="{3C35890E-35A2-4E50-A241-E5B177CCB81D}" version="2.0" flags="" helpdir="" />
+    <comClass clsid="{5E360B21-74BE-4155-9217-B118F88E56D7}" tlbid="{3C35890E-35A2-4E50-A241-E5B177CCB81D}" threadingModel="Apartment" progid="TaskScheduler2.Schedule" description="" />
+  </file>  
+  <file name="tweaking_tabs.ocx">
+    <typelib tlbid="{C1737950-391B-4208-AD45-530D7D9B734E}" version="7.0" flags="control" helpdir="" />
+    <comClass clsid="{661263AD-28E1-4F88-8C85-E36762CD55E0}" tlbid="{C1737950-391B-4208-AD45-530D7D9B734E}" threadingModel="Apartment" progid="Tweaking_Tabs.XTab" description="" />
+    <comClass clsid="{36109714-9E72-45D8-BAC9-F10673A7C6D6}" tlbid="{C1737950-391B-4208-AD45-530D7D9B734E}" threadingModel="Apartment" description="" />
+  </file>
+  <file name="tweaking_com_treeview.ocx">
+    <typelib tlbid="{CA5A8E1E-C861-4345-8FF8-EF0A27CD4236}" version="6.0" flags="control" helpdir="" />
+    <comClass clsid="{9C1F0FE1-777B-4356-8F80-40499265EAA7}" tlbid="{CA5A8E1E-C861-4345-8FF8-EF0A27CD4236}" threadingModel="Apartment" progid="vbalTreeViewLib6.vbalTreeView" description="" />
+  </file>
+  <file name="vbalIml6.ocx">
+    <typelib tlbid="{396F7AC0-A0DD-11D3-93EC-00C0DFE7442A}" version="1.0" flags="control" helpdir="" />
+    <comClass clsid="{396F7AC9-A0DD-11D3-93EC-00C0DFE7442A}" tlbid="{396F7AC0-A0DD-11D3-93EC-00C0DFE7442A}" threadingModel="Apartment" progid="vbalIml6.vbalImageList" description="" />
+    <comClass clsid="{396F7AD1-A0DD-11D3-93EC-00C0DFE7442A}" tlbid="{396F7AC0-A0DD-11D3-93EC-00C0DFE7442A}" threadingModel="Apartment" description="" />
+    <comClass clsid="{396F7AD5-A0DD-11D3-93EC-00C0DFE7442A}" tlbid="{396F7AC0-A0DD-11D3-93EC-00C0DFE7442A}" threadingModel="Apartment" description="" />
+  </file>
+  <file name="MSINET.Ocx">
+    <typelib tlbid="{48E59290-9880-11CF-9754-00AA00C00908}" version="1.0" flags="control" helpdir="" />
+    <comClass clsid="{48E59293-9880-11CF-9754-00AA00C00908}" tlbid="{48E59290-9880-11CF-9754-00AA00C00908}" threadingModel="Apartment" progid="InetCtls.Inet.1" description="Microsoft Internet Transfer Control" />
+  </file>
+  <file name="SSubTmr6.dll">
+    <typelib tlbid="{71A2702D-C7D8-11D2-BEF8-525400DFB47A}" version="1.0" flags="" helpdir="" />
+    <comClass clsid="{71A27032-C7D8-11D2-BEF8-525400DFB47A}" tlbid="{71A2702D-C7D8-11D2-BEF8-525400DFB47A}" threadingModel="Apartment" progid="SSubTimer6.GSubclass" description="" />
+    <comClass clsid="{71A27034-C7D8-11D2-BEF8-525400DFB47A}" tlbid="{71A2702D-C7D8-11D2-BEF8-525400DFB47A}" threadingModel="Apartment" progid="SSubTimer6.CTimer" description="" />
+  </file>
+  <asmv3:application xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+      <dpiAware>true</dpiAware>
+    </asmv3:windowsSettings>
+  </asmv3:application>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+        <requestedPrivileges>
+          <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+        </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly> 

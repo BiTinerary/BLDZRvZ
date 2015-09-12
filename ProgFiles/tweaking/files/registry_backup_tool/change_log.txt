@@ -1,0 +1,135 @@
+Tweaking.com - Registry Backup Change Log.
+
+v1.6.7
+Fixed bug where DEP on a system would cause the program to crash. This was because of a custom Unicode label control I was using. I removed that custom control and the program no longer crashes on DEP enabled systems.
+Code changes, in the last version 1.6.5 I had moved the task scheduler code from the pcwintech_tasksch.dll to the exe instead. With the goal of having one less file. But when I did that 11 antivirus programs on virustotal.com flagged the exe as a "GEN" or generic virus. While I could have simply submitted the exe to each of them and had them fix their definitions I instead moved the code back to the dll. The exe is no longer being flagged by those programs. 
+
+v1.6.5
+Tree view can now show Unicode characters.
+The program now pulls the Windows version number from the API instead of WMI. If WMI was corrupt on the system it couldn't pull the version of Windows, with the API call instead this is no longer a problem. The version number is used so the program knows which of its vss tools to run.
+Fixed bug where if you choose to backup using the fallback method, and then turned it off right after, the program would still use the fall back method until you restarted the program. This has now been fixed.
+Multiple UI changes.
+A lot of code updates and tweaks.
+Fix a bug where you couldn't create a schedule in the task scheduler on Windows XP & 2003 64 Bit.
+
+v1.6.1
+Bug Fix: Some users reported the program would crash when it was closing itself down after a good backup. This new versions seems to  have that fixed as I made some changes to the code.
+Small bug fix. The backup now button was always enabled at startup, so if a person clicked backup now before the treeview was done listing the hive files the backup would just get stuck in a loop. This has been fixed by disabling the button by default and then enabling it once the hives have all been loaded in the treeview.
+Program is now half the size. I redid some code, removed a few things and compiled the program different cutting the size down from 1.6mb to 824KB.
+
+v1.6.0
+Windows vista, 7 and newer added a new registry hive to the system called Components. The program now supports this new registry hive.
+
+v1.5.3
+Fixed bug where if you had the program set to do only 1 backup per day, and had it run from the task scheduler and no backups had been created yet the program wouldn't run the backup. This was because it couldn't find the backup path since none was created yet and it caused an error to make the program think a backup was already done. This has now been fixed.
+
+Added new feature where the program will show the elapsed time during the backup. If using the volume shadow copy service instead of the fallback method, there is a now a button on the backup progess window to use the fall back method. If VSS isn't working correctly on a system the program can end up waiting forever for VSS if it doesn't report an error but never makes the snapshot. With this button a person can tell it to use the fallback method instead if VSS appears to be taking far to long. This way a user doesn't have to stop the backup, go to setting, set the fallback and start over, thus saving the user time.
+
+v1.5.2
+Couple of GUI changes.
+
+Per user request I added an option to show a system tray icon when running a scheduled backup that is set for hidden.
+
+v1.5.1
+Improved the auto delete old backups feature in the program.
+
+v1.5.0
+Per user request I added a new option to the auto delete old backups. You can now set it to always keep a minimum amount of backups. Example: A user has their system off and is gone for a while, when they come back and run the reg backup it would remove all the old backups, since the user was gone for a while all old backups were removed. With this new option it wont remove all the backups.
+Fix bug where if the program had trouble pulling the system info it would load the tree view incorrectly and thus not backup those files. This is now fixed.
+Changed the way the program closes itself. On a few systems after the backup was complete and the program closes itself it would randomly crash. Hopefully this new close down process will fix that.
+Multiple code changes and improvements.
+
+v1.4.3
+Code change to how the program detects and waits for the VSS before using the fallback method.
+
+v1.4.2
+Small bug fix.
+
+v1.4.1
+Right click menu from the task bar now works.
+Fixed a bug where the program wasn't telling when VSS would fail and thus it would never close or move forward.
+Restore list now shows computer name with each backup that can be restored. This is helpful for techs that run the program from a thumb drive or server and have multiple machines they keep in the backup. By seeing the computer name they can tell which backup belongs to which machine without having to load and check each one.
+Restore list is now better sorted.
+Code tweaks.
+
+v1.4.0
+The program now detects if it didn't close right, if so ask if they want to use the fallback backup method instead (This is for people who get a blue screen of death when trying to use the volume shadow copy)
+You can now have the program always use the fallback backup method instead of the volume shadow copy service. The goal of this is for the people who have a messed up VSS on their system. Instead of making them wait for the VSS to fail it will now run right away.
+Per user request you can now have the program only make 1 auto backup per day. (This is for the people who have it set to backup at system startup but reboot their machines multiple times per day)
+Change the -silent command to run the backup minimized.
+Add some new command line options. -supersilent (Backups but shows no GUI at all) -auto (Runs the program, does a backup and then closes, the user can see it as it works, this was the original way the -silent command use to work)
+Now that the program has 3 different command lines it can use, the user can now tell the program which command to use for the scheduled backups.
+
+v1.3.0
+Per user request you can now name each registry backup.
+You can set the default backup name and default auto backup name for the backups under the advanced settings.
+Major change to the restore process in the program. Before the user profile registry files didn't always get restored because the move file operation was written to the old system registry file. This only happened if you restored the user profiles and the system registry at the same time and only when restoring from the program. This has now been fixed :-)
+
+v1.2.1
+Added a message box when restoring the registry asking if you want to restore. This is for the users who clicked restore that didn't mean to, this gives them the option to keep it from restoring :-)
+Added a open backup location button to the restore section.
+Added a delete this backup button to the restore section.
+Increased the combo box drop down list size in the restore section. It will now show the whole list without needing to scroll, but only to the max height of the program. If the restore list is bigger than that then it will scroll. This keeps it from being to big and going off screen.
+
+v1.2.0
+Program now has an advanced settings section.
+Program now has a fallback backup method if the volume shadow copy service fails on a system. It will use the Windows API to backup the core registry files and only the current user registry file. Volume shadow copy is the best way to get all registry files on the system, but now with the fallback method, people who don't have a working volume shadow copy are not left out.
+Added new setting to control what VSS exe the program uses. The program uses WMI to pull the OS information. but if WMI isn't working correctly the information isn't pulled and the program doesn't know which vss exe to use. With this new setting you can control it if you have any trouble.
+Program can now backup locked profile registry files without having to be ran under the system account.
+Improved the scheduler code.
+Edit schedule now opens the Windows Task Scheduler.
+Code and log improvements.
+
+v1.1.0
+The program is now Terminal Server Aware. When you ran the program on a Windows server that had Terminal Services installed the Windows API returned the wrong path to the windows dir. This is now fixed.
+Added more info to the log files showing what system variables the program pulled from the system.
+Changed the way the program is complied, the program exe is now smaller.
+
+v1.0.0
+Program is no longer beta and ready to use by all.
+Multiple code tweaks and fine tuning for new release.
+Online help and videos done.
+
+v0.9.8
+Added Help & Support section.
+More code improvements.
+
+v0.9.7
+Installed version of the program will default the backup location to C:\RegBackup\. The portable version will stay the same of the current folder the program is being ran from as the default location.
+The program now makes a restore batch file with the backups to use from the Windows recovery console. This will make it easier for normal users to do a restore if the system isn't bootable.
+Program will now change the font color in the list if a backup fails for a that reg file.
+Added a "View Logs" button to the backup window after a backup is ran.
+Program now adds the reg keys needed for the recovery console to allow access to now Windows folders. This is needed for a restore from the recovery console.
+The program now sets the schedule for system logon instead of at midnight for the default. The user can of course change this to what ever they like.
+Various code tweaks.
+
+v0.9.6
+Log_Vss.txt now gets stored with the backup like the other log files.
+Improved Vss logs to find out why a snap shot doesn't get created or mapped.
+More code tweaks to the main program.
+
+v0.9.5
+Added extra checks during the backup process.
+Spelling changes to a few sections in the program to make them better understandable.
+Multiple code improvements.
+
+v0.9.4
+Change the way the program logs the backup and restore. It will now store a log file with each backup.
+Logs now record the date and time for each entry.
+Better error handling for the file copy progress.
+
+v0.9.3
+Added new options to the schedule settings. You can now choose to have the schedule run under the current user account or the system account.
+Small code changes.
+
+v0.9.2
+Small bug fix where the program would sometimes get stuck in a loop when loading the treeview.
+The backup location setting can now be typed in instead of just using the browse button.
+The backup location browse button will now default to what ever backup location is currently set.
+Spelling changes.
+
+v0.9.1
+Fix bug where when running from the task scheduler it wouldn't grab the user profile locations. This is because the program use to pull the current user profile to get the profile directory. When running from the task scheduler it is ran as the system account which is stored in a different location. This is now fixed.
+
+v0.9.0
+First public beta release.

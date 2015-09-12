@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <assemblyIdentity name="Tweaking.com.Repair_Windows" processorArchitecture="X86" type="win32" version="1.0.0.0" />
+  <description>Repair Windows</description>
+  <file name="MSINET.Ocx">
+    <typelib tlbid="{48E59290-9880-11CF-9754-00AA00C00908}" version="1.0" flags="control" helpdir="" />
+    <comClass clsid="{48E59293-9880-11CF-9754-00AA00C00908}" tlbid="{48E59290-9880-11CF-9754-00AA00C00908}" threadingModel="Apartment" progid="InetCtls.Inet.1" description="Microsoft Internet Transfer Control" />
+  </file>
+  <file name="tweaking_tabs.ocx">
+    <typelib tlbid="{C1737950-391B-4208-AD45-530D7D9B734E}" version="7.0" flags="control" helpdir="" />
+    <comClass clsid="{661263AD-28E1-4F88-8C85-E36762CD55E0}" tlbid="{C1737950-391B-4208-AD45-530D7D9B734E}" threadingModel="Apartment" progid="Tweaking_Tabs.XTab" description="" />
+    <comClass clsid="{36109714-9E72-45D8-BAC9-F10673A7C6D6}" tlbid="{C1737950-391B-4208-AD45-530D7D9B734E}" threadingModel="Apartment" description="" />
+  </file>
+  <file name="SSubTmr6.dll">
+    <typelib tlbid="{71A2702D-C7D8-11D2-BEF8-525400DFB47A}" version="1.0" flags="" helpdir="" />
+    <comClass clsid="{71A27032-C7D8-11D2-BEF8-525400DFB47A}" tlbid="{71A2702D-C7D8-11D2-BEF8-525400DFB47A}" threadingModel="Apartment" progid="SSubTimer6.GSubclass" description="" />
+    <comClass clsid="{71A27034-C7D8-11D2-BEF8-525400DFB47A}" tlbid="{71A2702D-C7D8-11D2-BEF8-525400DFB47A}" threadingModel="Apartment" progid="SSubTimer6.CTimer" description="" />
+  </file>
+  <file name="tweaking_com_treeview.ocx">
+    <typelib tlbid="{CA5A8E1E-C861-4345-8FF8-EF0A27CD4236}" version="6.0" flags="control" helpdir="" />
+    <comClass clsid="{9C1F0FE1-777B-4356-8F80-40499265EAA7}" tlbid="{CA5A8E1E-C861-4345-8FF8-EF0A27CD4236}" threadingModel="Apartment" progid="vbalTreeViewLib6.vbalTreeView" description="" />
+  </file>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+        <requestedPrivileges>
+          <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+        </requestedPrivileges>
+    </security>
+  </trustInfo>
+   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"> 
+       <application> 
+           <!-- Windows Vista -->
+           <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/> 
+           <!-- Windows 7 -->
+           <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
+           <!-- Windows 8 -->
+           <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>
+           <!-- Windows 8.1 -->
+           <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>
+       </application> 
+   </compatibility>
+</assembly> 

@@ -1,0 +1,23 @@
+Restore Important Windows Services:
+
+This will restore the services that are location under the files folder and regfiles.
+
+Some of these services are
+
+bfe
+bits
+iphlpsvc
+mpssvc
+msiserver
+sharedaccess
+spooler
+sppsvc
+swprv
+vds
+vss
+wbengine
+windefend
+wscsvc
+wuauserv
+
+More services will be added to this repair in the future.

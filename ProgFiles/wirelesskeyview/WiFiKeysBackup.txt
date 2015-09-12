@@ -1,0 +1,1 @@
+Sky-Wifi	ESS	WPA2PSK	AES	passPhrase	#rAinDog!

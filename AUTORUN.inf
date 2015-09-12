@@ -1,0 +1,5 @@
+[autorun]
+icon=\ProgFiles\Icons\ybldzr.ico
+open=BLDZR.exe
+label=BLDZRv313
+action=RunMe
