@@ -18,4 +18,4 @@
 
 *.html linguist-vendored
 *.css linguist-vendored
-*.css linguist-vendored
+*.nsh linguist-vendored
