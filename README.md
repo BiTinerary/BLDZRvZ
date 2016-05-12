@@ -1,12 +1,16 @@
+# License Agreement
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
 Download FULL, raw, version here: https://drive.google.com/open?id=0BxzCGFRyWeZtUGdDT1N0bk1ibUk
 
-As it turns out GitHub doesn't like uploading `.iso`'s I keep getting commit errors and incomplete uploads. The direct download is the core file system. Without excess .jpg's, readme.md files, etc... only the raw files. You will need to format jump drive, cd, bootable medium using <a href="http://www.pendrivelinux.com/xboot-multiboot-iso-usb-creator/">Xboot</a> program or <a href="http://www.rmprepusb.com/documents/release-2-0">RMPREPUSB</a>. Otherwise, all file structure and necessary boot info is left intact. Free to hack, break, crack, redistribute and alter.
+# Info
 
-The only exception being and not limited to, any and all Capitol City ComputerFixx stores, franchises, companies, managers, employees, consultants, lawyers and otherwise. I disrespectfully refuse all copyrights, admittence, allowance, attribution and otherwise to your cause. Should you infringe upon this, know that I will pursue you with the full extent and <b>intention</b> of the law.
+As it turns out GitHub doesn't like uploading `.iso`'s I keep getting commit errors and incomplete uploads. A project for another day. The direct download is the core file system. Without excess .jpg's, readme.md files, etc... only the raw files. You will need to format jump drive, cd or bootable medium using <a href="http://www.pendrivelinux.com/xboot-multiboot-iso-usb-creator/">Xboot</a> program or <a href="http://www.rmprepusb.com/documents/release-2-0">RMPREPUSB</a>. Otherwise, all file structure and necessary boot info is left intact. Free to hack, break, crack, redistribute and alter within the spirit of Open Source. Not for professional use.
 
-To all others I give free reign. This software was inspired by <a href="http://www.hirensbootcd.org/">Hiren's Boot CD</a> but with the additive of making it more <b>consumer</b> friendly. Do what you will with it, I don't care. It likely won't reach as far as I think it's worth but on the off chance that it does, contribute any/everything to Hiren's BCD's cause. <a href="http://www.hiren.info/contact-us/">Donate to Hiren's BCD</a>
+This software was inspired by <a href="http://www.hirensbootcd.org/">Hiren's Boot CD</a> but with the additive of making it more <b>consumer</b> friendly. Do what you will with it, I don't care. O the off chance that anyone feels compelled to contribute, you can do that here: <a href="http://www.hiren.info/contact-us/">Donate to Hiren's BCD</a>
 
-So here you go, a one-stop-shop for everything regarding computer diagnosis and repair with my personal utmost regard to conveniece, simplicity, minimalist design. Just know that it's not perfect and I'm far from done. Like many creators, innovators and fellow CodeMonkeys, I doubt I'll ever be. I bid you safe travels and good luck in this amazon of Git's.
+So here you go, a one-stop-shop for everything regarding computer diagnosis and repair with my personal utmost regard to conveniece, simplicity, minimalist design. I bid you safe travels and good luck in this amazon of Git's.
 
 < 748MB and counting. Won't stop until I reach HBCD's standard if < 600MB despite introduction of USB3.0, BluRay, etc...
 
