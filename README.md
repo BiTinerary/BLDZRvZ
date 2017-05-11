@@ -1,6 +1,6 @@
 # Info
 
-As it turns out GitHub doesn't like uploading `.iso`'s I keep getting commit errors and incomplete uploads. A project for another day. The direct download is the core file system. Without excess .jpg's, readme.md files, etc... only the raw files. You will need to format jump drive, cd or bootable medium using <a href="http://www.pendrivelinux.com/xboot-multiboot-iso-usb-creator/">Xboot</a> program or <a href="http://www.rmprepusb.com/documents/release-2-0">RMPREPUSB</a>. Otherwise, all file structure and necessary boot info is left intact. Free to hack, break, crack, redistribute and alter within the spirit of Open Source. Not for professional use.
+The direct download below is the core file system. Without excess .jpg's, readme.md files, etc... only the raw files. You will need to format jump drive, cd or bootable medium using <a href="http://www.pendrivelinux.com/xboot-multiboot-iso-usb-creator/">Xboot</a> program or <a href="http://www.rmprepusb.com/documents/release-2-0">RMPREPUSB</a>. Otherwise, all file structure and necessary boot info is left intact. Free to hack, break, crack, redistribute and alter within the spirit of Open Source. Not for professional use.
 
 This software was inspired by <a href="http://www.hirensbootcd.org/">Hiren's Boot CD</a> but with the additive of making it more <b>consumer</b> friendly. Do what you will with it, I don't care. O the off chance that anyone feels compelled to contribute, you can do that here: <a href="http://www.hiren.info/contact-us/">Donate to Hiren's BCD</a>
 
