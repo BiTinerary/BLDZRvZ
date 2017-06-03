@@ -1,16 +1,14 @@
+# BLDZRvX
+BootLoader Disc of Zenith Repair
+<img src="https://raw.githubusercontent.com/BiTinerary/BLDZRvZ/master/GitHub%20Images/BLDZR.png" />
+
 # Info
 
 The direct download below is the core file system. Without excess .jpg's, readme.md files, etc... only the raw files. You will need to format jump drive, cd or bootable medium using <a href="http://www.pendrivelinux.com/xboot-multiboot-iso-usb-creator/">Xboot</a> program or <a href="http://www.rmprepusb.com/documents/release-2-0">RMPREPUSB</a>. Otherwise, all file structure and necessary boot info is left intact. Free to hack, break, crack, redistribute and alter within the spirit of Open Source. Not for professional use.
 
 This software was inspired by <a href="http://www.hirensbootcd.org/">Hiren's Boot CD</a> but with the additive of making it more <b>consumer</b> friendly. Do what you will with it, I don't care. O the off chance that anyone feels compelled to contribute, you can do that here: <a href="http://www.hiren.info/contact-us/">Donate to Hiren's BCD</a>
 
-So here you go, a one-stop-shop for everything regarding computer diagnosis and repair with my personal utmost regard to conveniece, simplicity, minimalist design. I bid you safe travels and good luck in this amazon of Git's.
-
-< 748MB and counting. Won't stop until I reach HBCD's standard if < 600MB despite introduction of USB3.0, BluRay, etc...
-
-# BLDZRvX
-BootLoader Disc of Zenith Repair
-<img src="https://raw.githubusercontent.com/BiTinerary/BLDZRvZ/master/GitHub%20Images/BLDZR.png" />
+So here you go, a one-stop-shop for everything regarding computer diagnosis and repair with my personal utmost regard to conveniece and simplicity.
 
 ### Quickstart Software Utility
 <img src="https://raw.githubusercontent.com/BiTinerary/BLDZRvZ/master/GitHub%20Images/BldzrProg.png" />
